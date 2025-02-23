@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Section Title */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Vendor Cards Layout */
+.vendor-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Vendor Card Hover Effect */
+.vendor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Vendor Images */
+.vendor-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Vendor Titles */
+.vendor-card h3 {
+    font-size: 22px;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+/* Vendor Description */
+.vendor-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* "See Products" Button */
+.vendor-card a {
+    display: inline-block;
+    text-decoration: none;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.vendor-card a:hover {
+    background: #45a049;
+}

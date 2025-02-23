@@ -1,0 +1,38 @@
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+
+.contact label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
